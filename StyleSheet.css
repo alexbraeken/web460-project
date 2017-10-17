@@ -1,0 +1,20 @@
+﻿body{
+            background-image:url(background.jpg);
+            background-size: cover;
+            height:100%;
+        }
+       
+#lblSearchFeedback, #btnSearch, #txtSearch{
+    float:left;
+}
+        .head_logo {
+            width: 1486px;
+            height: 28px;
+        }
+
+        .content{
+            width:97%;
+            background-color:white;
+            margin: 10px;
+        }
+

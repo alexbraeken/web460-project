@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<dsApplications xmlns="http://tempuri.org/dsApplications.xsd">
+  <tblApplications>
+    <Application_ID>1</Application_ID>
+    <Application_Name>test_app</Application_Name>
+    <Application_Date>2017-09-15T00:00:00-04:00</Application_Date>
+    <Username>alex</Username>
+  </tblApplications>
+  <tblApplications>
+    <Application_ID>2</Application_ID>
+    <Application_Name>test_app_2</Application_Name>
+    <Application_Date>2017-09-13T00:00:00-04:00</Application_Date>
+    <Username>alex</Username>
+  </tblApplications>
+  <tblApplications>
+    <Application_ID>3</Application_ID>
+    <Application_Name>test_app_3</Application_Name>
+    <Application_Date>2017-09-12T00:00:00-04:00</Application_Date>
+    <Username>alex</Username>
+  </tblApplications>
+</dsApplications>

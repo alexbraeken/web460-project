@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />   
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+    <title>Web460 Course Project - 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder></title>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Home.aspx">PROGRAMAHOLICS</a>
+    </div>
+    <ul class="nav navbar-form navbar-right">
+      <li class="list-inline"><asp:Label ID="lblSearchFeedback" runat="server" Text="" CssClass="label"></asp:Label>
+          <asp:TextBox ID="txtSearch" runat="server" CssClass="form-control" placeholder="Search"></asp:TextBox>
+          <asp:Button ID="btnSearch" runat="server" CssClass="btn btn-default" Text="Search" OnClick="btnSearch_Click" /></li>
+      </ul>
+      </div>  
+    </nav>
+        <div class="content">
+            <div class="summary_content">
+            
+        <table class="table table-bordered">
+            <tr>
+                <th>Username</th>
+                <td><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder></td>
+                <th>Favorite Programming Language</th>
+                <td><asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder></td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td><asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server"></asp:ContentPlaceHolder></td>
+                <th>Least Favorite Programming Language</th>
+                <td><asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server"></asp:ContentPlaceHolder></td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td><asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server"></asp:ContentPlaceHolder></td>
+                <th>Last Program Creation Date</th>
+                <td><asp:ContentPlaceHolder ID="ContentPlaceHolder6" runat="server"></asp:ContentPlaceHolder></td>
+            </tr>
+    </table>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderButtons" runat="server"></asp:ContentPlaceHolder>    
+                </div>
+            <br />
+            <br />
+        <div class="main_content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder8" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+        </form>
+</body>
+</html>

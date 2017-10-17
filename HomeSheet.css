@@ -1,0 +1,47 @@
+﻿body{
+            background-image:url(background.jpg);
+            background-size: cover;
+            height:100%;
+        }
+        #txtUsername, #txtPassword{
+            display: block;
+            width: 20%;
+            margin: auto;
+
+        }
+
+        #btnLogin, #btnCreate{
+            display: block;
+            width: 10%;
+            margin:auto;
+        }
+
+    
+
+        #main_content{
+            margin-top:200px;
+        }
+
+        #lblUserFeedback{
+            display:block;
+            margin:auto;
+            text-align:center;
+            font-family:Micra;
+            font-size:large;
+            color:red;
+            width:auto;
+            padding-top:20px;
+        }
+        .home_logo{
+            display:block;
+            width:35%;
+            margin:auto;
+            font-family:Micra;
+            font-size:xx-large;
+            color:orange;
+            text-align:center;
+        }
+
+        .auto-style1 {
+            height: 100%;
+        }
